@@ -1,7 +1,10 @@
+import SignUpPage from "./components/SignUpPage/SignUpPage"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <SignUpPage />
+    </div>
   )
 }
 
