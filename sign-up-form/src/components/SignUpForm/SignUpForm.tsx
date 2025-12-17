@@ -39,37 +39,37 @@ const SignUpForm = () => {
                 {({ errors, touched }) => (
                     <Form className="flex flex-col gap-5">
                         <div className="relative">
-                            <Field name='firstName' placeholder='First Name' type='text' className={`border p-[15px_0px_15px_32px] w-69.75 md:w-115 rounded-[5px] text-[14px] font-semibold leading-6.5 tracking-[0.25px] focus:border-[#5E54A4] outline-none
+                            <Field name='firstName' placeholder='First Name' type='text' className={`border p-[15px_70px_15px_32px] w-69.75 md:w-115 rounded-[5px] text-[14px] font-semibold leading-6.5 tracking-[0.25px] focus:border-[#5E54A4] outline-none
                             ${errors.firstName && touched.firstName ? "border-2 border-[#FF7979] text-[#FF7979]" : "border border-[#DEDEDE]"}`} />
 
-                            {errors.firstName && touched.firstName && (<img src={errorIcon} alt="error icoon" className="absolute right-6.75 top-7.5 -translate-y-1/2 w-6 h-6" />)}
+                            {errors.firstName && touched.firstName && (<img src={errorIcon} alt="error icon" className="absolute right-6.75 top-7.5 -translate-y-1/2 w-6 h-6" />)}
 
                             <ErrorMessage name="firstName" component="div" className="text-[#FF7979] text-[11px] text-right mt-1.5" />
                         </div>
 
                         <div className="relative">
-                            <Field name='lastName' placeholder='Last Name' type='text' className={`border p-[15px_0px_15px_32px] w-69.75 md:w-115 rounded-[5px] text-[14px] font-semibold leading-6.5 tracking-[0.25px] focus:border-[#5E54A4] outline-none
+                            <Field name='lastName' placeholder='Last Name' type='text' className={`border p-[15px_70px_15px_32px] w-69.75 md:w-115 rounded-[5px] text-[14px] font-semibold leading-6.5 tracking-[0.25px] focus:border-[#5E54A4] outline-none
                             ${errors.lastName && touched.lastName ? "border-2 border-[#FF7979] text-[#FF7979]" : "border border-[#DEDEDE]"}`} />
 
-                            {errors.lastName && touched.lastName && (<img src={errorIcon} alt="error icoon" className="absolute right-6.75 top-7.5 -translate-y-1/2 w-6 h-6" />)}
+                            {errors.lastName && touched.lastName && (<img src={errorIcon} alt="error icon" className="absolute right-6.75 top-7.5 -translate-y-1/2 w-6 h-6" />)}
 
                             <ErrorMessage name="lastName" component="div" className="text-[#FF7979] text-[11px] text-right mt-1.5" />
                         </div>
 
                         <div className="relative">
-                            <Field name='email' placeholder='Email Address' className={`border p-[15px_0px_15px_32px] w-69.75 md:w-115 rounded-[5px] text-[14px] font-semibold leading-6.5 tracking-[0.25px] focus:border-[#5E54A4] outline-none
+                            <Field name='email' placeholder='Email Address' className={`border p-[15px_70px_15px_32px] w-69.75 md:w-115 rounded-[5px] text-[14px] font-semibold leading-6.5 tracking-[0.25px] focus:border-[#5E54A4] outline-none
                             ${errors.email && touched.email ? "border-2 border-[#FF7979] text-[#FF7979]" : "border border-[#DEDEDE]"}`} />
 
-                            {errors.email && touched.email && (<img src={errorIcon} alt="error icoon" className="absolute right-6.75 top-7.5 -translate-y-1/2 w-6 h-6" />)}
+                            {errors.email && touched.email && (<img src={errorIcon} alt="error icon" className="absolute right-6.75 top-7.5 -translate-y-1/2 w-6 h-6" />)}
 
                             <ErrorMessage name="email" component="div" className="text-[#FF7979] text-[11px] text-right mt-1.5" />
                         </div>
 
                         <div className="relative">
-                            <Field name='password' placeholder='Password' type='password' className={`border p-[15px_0px_15px_32px] w-69.75 md:w-115 rounded-[5px] text-[14px] font-semibold leading-6.5 tracking-[0.25px] focus:border-[#5E54A4] outline-none
+                            <Field name='password' placeholder='Password' type='password' className={`border p-[15px_70px_15px_32px] w-69.75 md:w-115 rounded-[5px] text-[14px] font-semibold leading-6.5 tracking-[0.25px] focus:border-[#5E54A4] outline-none
                             ${errors.password && touched.password ? "border-2 border-[#FF7979] text-[#FF7979]" : "border border-[#DEDEDE]"}`} />
 
-                            {errors.password && touched.password && (<img src={errorIcon} alt="error icoon" className="absolute right-6.75 top-7.5 -translate-y-1/2 w-6 h-6" />)}
+                            {errors.password && touched.password && (<img src={errorIcon} alt="error icon" className="absolute right-6.75 top-7.5 -translate-y-1/2 w-6 h-6" />)}
 
                             <ErrorMessage name="password" component="div" className="text-[#FF7979] text-[11px] text-right mt-1.5" />
                         </div>
